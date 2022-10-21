@@ -7,5 +7,5 @@ from phonenumbers import carrier
 ch_nmber = phonenumbers.parse(number, "CH")  #get the location of phone number
 print(geocoder.description_for_number(ch_nmber, "en"))
 
-service_nmber = phonenumbers.parse(number, "RO")  #get the
+service_nmber = phonenumbers.parse(number, "RO") 
 print(carrier.name_for_number(service_nmber, "en"))
